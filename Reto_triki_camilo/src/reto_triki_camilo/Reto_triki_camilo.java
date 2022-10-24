@@ -316,44 +316,44 @@ public class Reto_triki_camilo {
     public static final String Black_color = "\u001B[30m";
 
     // seleccionar el simbolo del jugador
-public static char SelectSymbol(String player) {
+    public static char SelectSymbol(String player) {
 
         Scanner capture = new Scanner(System.in);
 
         System.out.println("Ingresar el numero de el simbolo quiere para el player " + player);
-        System.out.println("1 = ?");
-        System.out.println("2 = ?");
-        System.out.println("3 = ?");
-        System.out.println("4 = ?");
-        System.out.println("5 = ?");
-        System.out.println("6 = ?");
+        System.out.println("1 = ☺");
+        System.out.println("2 = ☻");
+        System.out.println("3 = ♥");
+        System.out.println("4 = ♠");
+        System.out.println("5 = ♀");
+        System.out.println("6 = ♂");
 
         int seleccion = Integer.parseInt(capture.nextLine());
         char resultSelection = '0';
 
         switch (seleccion) {
             case 1: {
-                resultSelection = '?';
+                resultSelection = '☺';
                 break;
             }
             case 2: {
-                resultSelection = '?';
+                resultSelection = '☻';
                 break;
             }
             case 3: {
-                resultSelection = '?';
+                resultSelection = '♥';
                 break;
             }
             case 4: {
-                resultSelection = '?';
+                resultSelection = '♠';
                 break;
             }
             case 5: {
-                resultSelection = '?';
+                resultSelection = '♀';
                 break;
             }
             case 6: {
-                resultSelection = '?';
+                resultSelection = '♂';
                 break;
             }
             default:
